@@ -1,0 +1,79 @@
+body {
+  background-image: url('https://blackdownhillsaonb.org.uk/wp-content/uploads/2023/05/luppitt-area-landscape.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+H1{font-family:'AmelinaScript', sans-serif;
+    color: rgb(217, 115, 115);
+  }
+
+    @font-face {
+  font-family: 'AmelinaScript';
+  src: url('./AmelinaScript.ttf') format('truetype');
+  font-weight: regular;
+  font-style: regular;
+}
+
+.idea {
+  position: absolute;
+  bottom: 500px; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+
+.P1 {
+  font-size: 28px;
+    font-family: 'AmelinaScript', cursive;
+   color: rgb(185, 84, 84);
+
+
+}
+
+.P2 {
+  font-size: 20px;
+  margin-top: 10px; 
+  color: rgb(9, 67, 192);
+
+}
+
+
+#sheep3{
+  position: absolute;
+  bottom: 300px; 
+  left: 10%;
+  width: 150px;
+}
+
+#sheep {
+  position: absolute;
+  bottom: 300px; 
+  left: 60%;
+  width: 200px;
+  
+}
+
+
+#house{
+
+  position: absolute;
+  bottom: 2px;
+  background-color: azure;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+  
+}
+
+#output {
+  text-align: left;      
+  margin-left: 50px;     
+  line-height: 80%;      
+  font-size: 18px;       
+  color: rgb(60, 60, 60);
+}
